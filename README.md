@@ -101,3 +101,56 @@ The state consists of the following information:
 - the direction of the tail relative to the snake
 
 The `new_food_position` method generates a new position for the food.
+The `step` method updates the state of the environment based on the action taken by the agent.
+The action taken by the agent is passed as an argument.
+The new position of the snake is calculated based on the current position and the direction.
+If the snake hits the edge of the screen or its own body, the game is over and the method returns `done` as True.
+Otherwise, the method returns `done` as False.
+
+The `render` method updates the display with the current state of the environment.
+It draws the snake and food on the screen and displays the score in the top left corner.
+
+The `close` method closes the Pygame window and quits Pygame.
+
+## DQNAgent Class
+The `DQNAgent` class sets up the DQN agent for the snake game.
+It has the following attributes:
+- `input_size`: the size of the state
+- `output_size`: the number of actions the agent can take
+- `model`: the DQN model
+- `target_model`: the target DQN model
+- `optimizer`: the optimizer for the DQN model
+- `memory`: a list of transitions (state, action, next_state, reward, done)
+- `batch_size`: the size of the batch for training
+- `gamma`: the discount factor
+- `epsilon`: the exploration rate
+- `epsilon_min`: the minimum exploration rate
+- `epsilon_decay`: the rate at which the exploration rate decays
+- `target_update_frequency`: the frequency with which the target model is updated
+- `loss_fn`: the loss function for training the DQN model
+- `training_step`: the number of steps the agent has taken
+
+The `__init__` method initializes the DQNAgent with the given `input_size` and `output_size`.
+It creates the DQN model and the target DQN model, the optimizer, and the memory.
+It sets the batch size, discount factor, exploration rate, minimum exploration rate, and exploration rate decay.
+It sets the target update frequency and the loss function.
+It sets the training step to 0.
+
+The `memorize` method adds a transition (state, action, next_state, reward, done) to the memory.
+
+The `act` method returns the action the agent should take based on the current state.
+If a random number is less than the exploration rate, the method returns a random action.
+Otherwise, the method returns the action with the highest estimated value for the state.
+
+The `learn` method trains the DQN model on a random batch of transitions from the memory.
+If the size of the memory is less than the batch size, the method returns without training.
+Otherwise, the method samples a batch of transitions from the memory, calculates the expected values for the actions taken, and updates the DQN model to minimize the loss.
+It also updates the exploration rate and the target model.
+
+The `save` method saves the DQN model to a file.
+
+The `load` method loads the DQN model from a file.
+
+## Main Function
+The `train` function trains the agent on the environment.
+It takes in the agent, the environment, the number of episodes to run, and an optional argument `render` to determine if the environment should be rendered during
