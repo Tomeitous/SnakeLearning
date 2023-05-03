@@ -1,8 +1,6 @@
 """
 # Reinforcement Learning
 
-![Reinforcement Learning 2](https://miro.medium.com/max/2400/1*oMSg2_mKguAGKy1C64UFlw.png)
-
 Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by interacting with an environment. In RL, an agent takes actions to achieve a goal and receives feedback in the form of rewards or penalties.
 
 The objective of the agent is to learn a policy, which is a mapping from states to actions, that maximizes the cumulative reward over time. The agent does this by exploring the environment, trying out different actions, and learning from the feedback received.
@@ -24,5 +22,21 @@ Reinforcement learning algorithms, such as Q-learning, Deep Q-Networks (DQN), an
 ![Deep Q-Network](https://miro.medium.com/max/1200/1*Gh5PS4R_A5drl5ebd_gNrg@2x.png)
 
 Reinforcement learning has been successfully applied to various domains, including game playing, robotics, and recommendation systems.
+![Reinforcement Learning](https://miro.medium.com/max/1400/1*1GhBb7gHHe5DvV8FnlZ1Gw.png)
+
+![Agent and Environment Interaction](https://miro.medium.com/max/700/1*3q1HiQTYD_3MMY_I9XStFQ.png)
+
+![Q-Learning](https://miro.medium.com/max/1200/1*goJMzB1LeOyFvF8WmRuNXg.png)
+
+![Deep Q-Network](https://miro.medium.com/max/1400/1*yDdG5QTeujmiu_AKZo_7Pw.png)
+
+![DQN Example](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/DRIVE/platform/img2.png)
+
+![Policy Gradient](https://miro.medium.com/max/1200/1*SYyR8o5ReuDNXYIegx7OuA.png)
+
+![PPO Algorithm](https://miro.medium.com/max/1400/1*3q1HiQTYD_3MMY_I9XStFQ.png)
+
+![Actor-Critic](https://miro.medium.com/max/1200/1*3q1HiQTYD_3MMY_I9XStFQ.png)
+
 
 """
