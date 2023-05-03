@@ -7,7 +7,10 @@ Reinforcement Learning (RL) is a type of machine learning where an agent learns 
 
 The objective of the agent is to learn a policy, which is a mapping from states to actions, that maximizes the cumulative reward over time. The agent does this by exploring the environment, trying out different actions, and learning from the feedback received.
 
-![Agent and Environment Interaction](https://miro.medium.com/max/700/1*3q1HiQTYD_3MMY_I9XStFQ.png)
+
+![Reinforcement Learning 1](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/04/Screenshot-2019-04-16-at-5.46.01-PM.png)
+
+![Reinforcement Learning 2](https://miro.medium.com/max/2400/1*oMSg2_mKguAGKy1C64UFlw.png)
 
 Key components of reinforcement learning:
 
