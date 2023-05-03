@@ -2,6 +2,12 @@
 
 This project is an implementation of reinforcement learning algorithm to play the snake game. The snake game environment is implemented using Pygame library and the reinforcement learning algorithm is implemented using PyTorch. The agent learns to play the game by maximizing the reward signal.
 
+## Other written documents 
+
+[Course Reflection](https://github.com/Tomeitous/SnakeLearning/blob/main/Course_reflection.md)
+
+[Reinforcement Learning Explanation](https://github.com/Tomeitous/SnakeLearning/blob/main/Reinforcement_Learning_explanation.md)
+
 ![image](https://user-images.githubusercontent.com/22236987/235773176-1fef537e-c9c7-40d1-a22b-2fad63c60478.png) ![image](https://user-images.githubusercontent.com/22236987/235774906-6c640e06-605e-4a2f-81d4-6326fe4ffc33.png)
 
 
