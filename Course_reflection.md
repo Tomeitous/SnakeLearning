@@ -1,5 +1,5 @@
-"""
-# My Thoughts and Involvement in the Project
+
+# My Thoughts on the Project
 
 ## Project Idea
 The project idea was to create a Snake game using reinforcement learning. It was a great opportunity to combine my interest in game development and machine learning.
@@ -27,5 +27,3 @@ The next step would be to add more features and challenges to the game, making i
 
 ## Personal Reflection
 I spent around 30% of my time creating the snake game and 70% on the deep learning code. This project was an excellent learning experience that allowed me to explore the intersection of game development and machine learning. It was fascinating to see how the snake agent improved its gameplay over time, and I'm eager to continue working on this project and see how far I can push its capabilities.
-
-"""
