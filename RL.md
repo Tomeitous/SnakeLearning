@@ -7,7 +7,6 @@ Reinforcement Learning (RL) is a type of machine learning where an agent learns 
 
 The objective of the agent is to learn a policy, which is a mapping from states to actions, that maximizes the cumulative reward over time. The agent does this by exploring the environment, trying out different actions, and learning from the feedback received.
 
-
 ![Reinforcement Learning 1](https://cdn.analyticsvidhya.com/wp-content/uploads/2019/04/Screenshot-2019-04-16-at-5.46.01-PM.png)
 
 
@@ -25,13 +24,5 @@ Reinforcement learning algorithms, such as Q-learning, Deep Q-Networks (DQN), an
 ![Deep Q-Network](https://miro.medium.com/max/1200/1*Gh5PS4R_A5drl5ebd_gNrg@2x.png)
 
 Reinforcement learning has been successfully applied to various domains, including game playing, robotics, and recommendation systems.
-![DQN 1](https://miro.medium.com/max/1026/1*G5ry7eMW-6kBJTC_E7N_cg.png)
-
-![DQN 2](https://cdn-images-1.medium.com/max/800/1*4G2Q8uZXdzK6o4La6xuhSg.png)
-
-![Agent 1](https://miro.medium.com/max/2000/1*ZdD2Z0tdg7TxJnmW8M1D6A.png)
-
-![Agent 2](https://www.analyticsvidhya.com/wp-content/uploads/2019/05/Screenshot-2019-05-15-at-10.24.08.png)
-
 
 """
