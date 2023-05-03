@@ -1,4 +1,3 @@
-"""
 # Reinforcement Learning
 
 Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by interacting with an environment. In RL, an agent takes actions to achieve a goal and receives feedback in the form of rewards or penalties.
@@ -22,5 +21,3 @@ Reinforcement learning algorithms, such as Q-learning, Deep Q-Networks (DQN), an
 ![Deep Q-Network](https://miro.medium.com/max/1200/1*Gh5PS4R_A5drl5ebd_gNrg@2x.png)
 
 Reinforcement learning has been successfully applied to various domains, including game playing, robotics, and recommendation systems.
-
-"""
