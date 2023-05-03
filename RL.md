@@ -22,21 +22,5 @@ Reinforcement learning algorithms, such as Q-learning, Deep Q-Networks (DQN), an
 ![Deep Q-Network](https://miro.medium.com/max/1200/1*Gh5PS4R_A5drl5ebd_gNrg@2x.png)
 
 Reinforcement learning has been successfully applied to various domains, including game playing, robotics, and recommendation systems.
-![Reinforcement Learning](https://miro.medium.com/max/1400/1*1GhBb7gHHe5DvV8FnlZ1Gw.png)
-
-![Agent and Environment Interaction](https://miro.medium.com/max/700/1*3q1HiQTYD_3MMY_I9XStFQ.png)
-
-![Q-Learning](https://miro.medium.com/max/1200/1*goJMzB1LeOyFvF8WmRuNXg.png)
-
-![Deep Q-Network](https://miro.medium.com/max/1400/1*yDdG5QTeujmiu_AKZo_7Pw.png)
-
-![DQN Example](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/DRIVE/platform/img2.png)
-
-![Policy Gradient](https://miro.medium.com/max/1200/1*SYyR8o5ReuDNXYIegx7OuA.png)
-
-![PPO Algorithm](https://miro.medium.com/max/1400/1*3q1HiQTYD_3MMY_I9XStFQ.png)
-
-![Actor-Critic](https://miro.medium.com/max/1200/1*3q1HiQTYD_3MMY_I9XStFQ.png)
-
 
 """
