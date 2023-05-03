@@ -1,6 +1,6 @@
 
 
-## Other written documents 
+## Other written documents for teachers
 
 [Course Reflection](https://github.com/Tomeitous/SnakeLearning/blob/main/Course_reflection.md)
 
